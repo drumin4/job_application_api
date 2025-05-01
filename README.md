@@ -11,10 +11,10 @@ Ideal for:
 
 ## ⚙️ Tech Stack
 
-**Backend:** FastAPI, SQLAlchemy (Async), SQLite (or PostgreSQL)\
+**Backend:** FastAPI, SQLAlchemy (Async), SQL (PostgreSQL)\
 **NLP:** PyMuPDF for PDF parsing, custom AI-based similarity scoring\
 **Frontend:** (Optional, connect your own React/Next.js client)\
-**ORM:** Async SQLAlchemy with Alembic migrations
+**ORM:** Async SQLAlchemy
 
 ---
 
@@ -60,7 +60,7 @@ Health check endpoint to confirm the API is live.
 
 ```bash
 # Clone and enter the project
-git clone https://github.com/yourusername/resume-matcher
+git clone https://github.com/drumin4/job_application_api
 cd resume-matcher
 
 # Create and activate virtual environment
